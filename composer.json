@@ -1,4 +1,9 @@
 {
     "name": "m1nor/php-orm",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "RsORM\\": "src"
+        }
+    }
 }
